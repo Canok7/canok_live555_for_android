@@ -1,0 +1,15 @@
+---- handleCmd_SETUP Matches (2 in 0 files) ----
+RTSPServer.cpp (y:\vp128\vendor\byd\live\livemedia):	  clientSession->handleCmd_SETUP(this, urlPreSuffix, urlSuffix, (char const*)fRequestBuffer);
+RTSPServer.cpp (y:\vp128\vendor\byd\live\livemedia):::handleCmd_SETUP(RTSPServer::RTSPClientConnection* ourClientConnection,
+---- startStream Matches (11 in 9 files) ----
+MPEG2TransportFileServerMediaSubsession.cpp (y:\vp128\vendor\byd\live\livemedia):::startStream(unsigned clientSessionId, void* streamToken, TaskFunc* rtcpRRHandler,
+MPEG2TransportFileServerMediaSubsession.cpp (y:\vp128\vendor\byd\live\livemedia):  OnDemandServerMediaSubsession::startStream(clientSessionId, streamToken,
+MPEG2TransportFileServerMediaSubsession.hh (y:\vp128\vendor\byd\live\livemedia\include):  virtual void startStream(unsigned clientSessionId, void* streamToken,
+OnDemandServerMediaSubsession.cpp (y:\vp128\vendor\byd\live\livemedia):void OnDemandServerMediaSubsession::startStream(unsigned clientSessionId,
+OnDemandServerMediaSubsession.hh (y:\vp128\vendor\byd\live\livemedia\include):  virtual void startStream(unsigned clientSessionId, void* streamToken,
+PassiveServerMediaSubsession.cpp (y:\vp128\vendor\byd\live\livemedia):void PassiveServerMediaSubsession::startStream(unsigned clientSessionId,
+PassiveServerMediaSubsession.hh (y:\vp128\vendor\byd\live\livemedia\include):  virtual void startStream(unsigned clientSessionId, void* streamToken,
+RTPInterface.hh (y:\vp128\vendor\byd\live\livemedia\include):// "ServerMediaSubsession::startStream()".
+RTSPServer.cpp (y:\vp128\vendor\byd\live\livemedia):      fStreamStates[i].subsession->startStream(fOurSessionId,
+ServerMediaSession.hh (y:\vp128\vendor\byd\live\livemedia\include):  virtual void startStream(unsigned clientSessionId, void* streamToken,
+ServerMediaSession.hh (y:\vp128\vendor\byd\live\livemedia\include):     // using the "startStream()" and "deleteStream()" functions.
